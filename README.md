@@ -28,6 +28,13 @@ AMD Phenom II 945 (95W, AM2+)
 1x8GB PNY DDR3  
 2x Sandisk 120GB SSD (ZFS mirror configuration)
 
+Extra software
+-----
+The OS software itself has not been heavily customized.  
+These scripts implement basic power management - read the source carefully:  
+https://github.com/bobbybudnick/SFS-Laptop/blob/master/LAPTOP_POWER
+https://github.com/bobbybudnick/SFS-Laptop/blob/master/LAPTOP_POWER_STUB
+
 Common hardware
 -----
 Sceptre 16" 1366x768 monitor  
