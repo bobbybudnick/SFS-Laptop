@@ -32,7 +32,7 @@ Extra software
 -----
 The OS software itself has not been heavily customized.  
 These scripts implement basic power management - read the source carefully:  
-https://github.com/bobbybudnick/SFS-Laptop/blob/master/LAPTOP_POWER
+https://github.com/bobbybudnick/SFS-Laptop/blob/master/LAPTOP_POWER  
 https://github.com/bobbybudnick/SFS-Laptop/blob/master/LAPTOP_POWER_STUB
 
 Common hardware
