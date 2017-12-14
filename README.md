@@ -1,7 +1,10 @@
 # SFS-Laptop
 
-picture with caption showing tm1 running devuan and tm2 running freebsd  
-section for 3D printed palmrest
+![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_101950.JPG)
+![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102306.JPG)
+![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102521.JPG)
+(Github does not handle EXIF orientation data correctly)
+TM1 running Devuan with Steam and TM2 running Freebsd  
 
 TM1 design goals
 -----
@@ -72,6 +75,13 @@ Dual monitor notes
 -----
 The monitor is a lesser and different aspect ratio than most TVs.  Additionally xrandr cannot drive 1366x768 on the monitor with a second monitor connected for some reason. This command will clone both monitors and attempt to show the full 1920x1080 TV image in a compromise 1024x768 resolution on the monitor:  
 xrandr --output HDMI-0 --mode 1024x768 --scale-from 1920x1080 --same-as DVI-0
+
+3D printing
+-----
+This model requires an extension to the case to accomodate the monitor height.  It is created in the form of a decorative 3D printed palmrest.  The pieces are sized for a typical 3D printer and should be glued together and then glued to the front of the case.  See the geometry problem section for more information.  
+https://github.com/bobbybudnick/SFS-Laptop/blob/master/SFS-Laptop-Keyboard-Support-6.stl - Print x1  
+https://github.com/bobbybudnick/SFS-Laptop/blob/master/SFS-Laptop-Keyboard-Support-7.stl - Print x2
+
 
 Storm clouds on the horizon
 -----
