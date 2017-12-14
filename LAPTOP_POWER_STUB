@@ -1,0 +1,46 @@
+#!/bin/bash
+
+echo 1 > /home/jason/LOCK_STATUS
+echo 1 > /home/jason/SCREEN_STATUS
+
+#give the system idle time to accumulate
+sleep 3
+while true
+do
+#check how many milliseconds we are idle
+IDLE_TIME=$(xprintidle)
+#not idle
+#this number should stay low to keep from turning the screen on immediately
+if [ $IDLE_TIME -lt 1000 ]
+then
+SCREEN_STATUS=$(cat /home/jason/SCREEN_STATUS)
+if [ $SCREEN_STATUS -lt 1 ]
+then
+#echo "Screen On"
+echo 1 > /home/jason/SCREEN_STATUS
+xrandr --output DFP4 --auto
+fi
+fi
+#idle
+#this number is how long to wait before going back asleep
+if [ $IDLE_TIME -ge 10000 ]
+then
+SCREEN_STATUS=$(cat /home/jason/SCREEN_STATUS)
+if [ $SCREEN_STATUS -gt 0 ]
+then
+#echo "Screen Off"
+echo 0 > /home/jason/SCREEN_STATUS
+xrandr --output DFP4 --off
+fi
+fi
+sleep 1
+#check for unlock signal
+LOCK_STATUS=$(cat /home/jason/LOCK_STATUS)
+if [ $LOCK_STATUS -lt 1 ]
+then
+#better turn the screen back on here just in case
+xrandr --output DFP4 --auto
+exit
+fi
+done
+

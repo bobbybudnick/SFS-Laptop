@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#this script implements basic power management for TM1 and TM2
+#it works by turning the monitor off when locked and idle for a few seconds
+#tested in Linux but probably should work in FreeBSD
+
+#sudo configuration needed to run stub without password
+#absolute paths in stub need to be edited because kde does not understand ~
+#set kde to lock when power button is pushed
+#set kde to start this script when locked
+#set kde to echo 0 > /home/jason/LOCK_STATUS when unlocked - edit this path
+
+#xset dpms force standby was not reliable because it was premempted by something
+#vbetool had strange and varied results like dpms on and off both causing off
+
+#has to run as user
+xhost +
+#has to run as root
+sudo /home/jason/LAPTOP_POWER_STUB
+
