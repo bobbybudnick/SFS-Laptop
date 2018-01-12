@@ -68,6 +68,7 @@ place in vice and grind off 1/3" from one hinge
 place in vice and bend both hinges at central hole to about 30 degrees  
 place in vice and drill a 1/8" hole 1/3" above central hole between tip  
 place in vice and crush with the help of a breaker pipe to increase friction  
+(may be necessary to use a small screw between vice teeth and hinge)  
 make hole in wrap and attach hinges to monitor with 1 screw each  
 lay hinge flat below monitor and tape accounting for any case unevenness  
 carefully bond monitor/hinge assembly square to case and attach wires
