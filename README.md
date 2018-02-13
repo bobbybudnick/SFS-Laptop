@@ -158,3 +158,22 @@ Geometry problem implications
 a netbook device can be built with an 11" screen and no palm rest extension  
 for the 16" device the keyboard on top idea won out - too awkward to mount in front
 
+Extended high load dilemma
+-----
+Problem: long freebsd compiles fail with various shutdowns and reboots
+red herrings:
+any other step down converter - wi-25 integrates this
+higher power picopsu - wi-25 is not overloaded
+knacro 144w stabilizer - failed - high pitched noise and voltage drop
+drok 150w stabilizer - failed - loose connectors and voltage drop
+step up/down converters (stabilizers) in parallel - not necessary
+larger charger - will not overcome inadequate wiring
+solutions:
+tm-1 failed because of inadequate charger - needs 5 amps only had 3.75 amps
+tm-2 failed because of inadequate wiring - needs 14 awg only had 18 awg
+BONUS - high power 80mm fan review:
+sanyo denki sanace 80mmx25
+b-gears bblaster 80mmx25
+vantec tornado 80mmx38
+Delta TFB0812UHE Sidewinder 80mmx38
+
