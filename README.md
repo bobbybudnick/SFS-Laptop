@@ -40,7 +40,7 @@ Common hardware
 Sceptre 16" 1366x768 monitor  
 BUD Industries CU-712-A aluminum box  
 Permanent Industry 20cm FPV flat HDMI cable  
-2x Philmore DC extension cord (male-charge cable,male-internal,female-charge port)
+2x Philmore DC extension cord (male-charge cable,male-internal,female-charge port)  
 HTRC 100W touch screen multi charger  
 Drok 3W micro audio amplifier  
 right angle 3.5mm audio cable (chopped in half)  
