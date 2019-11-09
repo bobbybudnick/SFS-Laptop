@@ -4,7 +4,7 @@
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102306.JPG)
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102521.JPG)
 (Github does not handle EXIF orientation data correctly)
-TM1 running Devuan with Steam and TM2 running Freebsd  
+TM1 running Devuan with Steam and TM2 running FreeBSD
 
 TM1 design goals
 -----
