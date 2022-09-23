@@ -64,14 +64,14 @@ You do not have to have all the hardware listed.  Just substitute what you have 
 
 Hinge notes
 -----
-place in vice and grind off 1/3" from one hinge  
-place in vice and bend both hinges at central hole to about 30 degrees  
-place in vice and drill a 1/8" hole 1/3" above central hole between tip  
-place in vice and crush with the help of a breaker pipe to increase friction  
+Place in vice and grind off 1/3" from one hinge  
+Place in vice and bend both hinges at central hole to about 30 degrees  
+Place in vice and drill a 1/8" hole 1/3" above central hole between tip  
+Place in vice and crush with the help of a breaker pipe to increase friction  
 (may be necessary to use a small screw between vice teeth and hinge)  
-make hole in wrap and attach hinges to monitor with 1 screw each  
-lay hinge flat below monitor and tape accounting for any case unevenness  
-carefully bond monitor/hinge assembly square to case and attach wires
+Make hole in wrap and attach hinges to monitor with 1 screw each  
+Lay hinge flat below monitor and tape accounting for any case unevenness  
+Carefully bond monitor/hinge assembly square to case and attach wires
 
 Wiring notes
 -----
@@ -98,10 +98,10 @@ continued availability of 16" monitors
 
 Future hardware
 -----
-device to measure battery voltage and export to OS as USB UPS  
-affordable 12v lithium iron battery in a compatible form factor  
+Device to measure battery voltage and export to OS as USB UPS  
+Affordable 12v lithium iron battery in a compatible form factor  
 Ryzen APU  
-mini antennas for the built in wifi and Bluetooth
+Mini antennas for the built in wifi and Bluetooth
 
 Tools required
 -----
@@ -122,41 +122,41 @@ dremel or grinder
 
 The geometry problem  
 -----
-the premise is that a laptop monitor entirely covers the base  
-most new monitors are 16:9 instead of 4:3  
-motherboard is 7x7 inches square instead of rectangular like a laptop  
-keyboard must go in front of case instead of top for cooling and space  
-this means monitor height must be 7 + X inches for the keyboard  
-a normal keyboard is 7 inches long  
-this means monitor height must be 14 inches  
-this equals about a 21 inch monitor which is too big heavy and powerful  
-a short keyboard is 3.5 inches long  
-this means monitor height must be about 10.5 inches  
-this equals about a 16 inch monitor which is ok for laptop gaming  
-a 16 inch monitor is about 15 inches wide so the case must be also  
-this is less of a problem with 4:3 but modern games expect a 16:9
+The premise is that a laptop monitor entirely covers the base  
+Most new monitors are 16:9 instead of 4:3  
+Motherboard is 7x7 inches square instead of rectangular like a laptop  
+Keyboard must go in front of case instead of top for cooling and space  
+This means monitor height must be 7 + X inches for the keyboard  
+A normal keyboard is 7 inches long  
+This means monitor height must be 14 inches  
+This equals about a 21 inch monitor which is too big heavy and powerful  
+A short keyboard is 3.5 inches long  
+This means monitor height must be about 10.5 inches  
+This equals about a 16 inch monitor which is ok for laptop gaming  
+A 16 inch monitor is about 15 inches wide so the case must be also  
+This is less of a problem with 4:3 but modern games expect a 16:9
 
 Geometry problem part deux
 -----
-case should be at least 7" long for motherboard and wide enough for gaming monitor  
+Case should be at least 7" long for motherboard and wide enough for gaming monitor  
 15-16" monitors are in the 9-10" height range so exceed the motherboard length  
-even a 12" monitor is slightly large at 7.4"  
-so the case or keyboard/case must be longer to accommodate a gaming monitor  
-keyboard can go in front of case to increase length but this comes with problems:  
-looks like a 70-80s luggable PC  
-keyboard must be extra short  
-keyboard must be tilted to save space even when extra short to be in the 3" range  
-monitor does not close flush with keyboard when tilted  
+Even a 12" monitor is slightly large at 7.4"  
+So the case or keyboard/case must be longer to accommodate a gaming monitor  
+Keyboard can go in front of case to increase length but this comes with problems:  
+Looks like a 70-80s luggable PC  
+Keyboard must be extra short  
+Keyboard must be tilted to save space even when extra short to be in the 3" range  
+Monitor does not close flush with keyboard when tilted  
 (keyboard on top comes with the problem of fitment between case and screen)  
-this leaves a choice:  
-build with keyboard in front and tilted?  
+This leaves a choice:  
+Build with keyboard in front and tilted?  
 or  
-build with keyboard on top and size case appropriately/add 3d printed extension?
+Build with keyboard on top and size case appropriately/add 3d printed extension?
 
 Geometry problem implications
 -----
-a netbook device can be built with an 11" screen and no palm rest extension  
-for the 16" device the keyboard on top idea won out - too awkward to mount in front
+A netbook device can be built with an 11" screen and no palm rest extension  
+For the 16" device the keyboard on top idea won out - too awkward to mount in front
 
 Extended high load dilemma
 -----
