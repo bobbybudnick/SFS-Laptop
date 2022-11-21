@@ -6,7 +6,7 @@
 (Github does not handle EXIF orientation data correctly)
 TM1 running Devuan with Steam and TM2 running FreeBSD
 
-***Legacy Work with 15"/16" laptops***
+*Legacy Work with 15"/16" laptops*
 
 TM1 design goals
 -----
