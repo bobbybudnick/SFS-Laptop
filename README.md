@@ -218,7 +218,7 @@ motherboard sticks out due to the ATX connector in front and so keyboard is flus
 could use 90 degree/right angle ATX connector for laptop to connect to Pico PSU  
 for the luggable a Pico PSU with ac adapter could be used or a full PC power supply  
 connector can also be cut from the Pico PSU and a large 12v power supply attached  
-having a flattened ARX connector in front allows for keyboard to sit flush on top  
+having a flattened ATX connector in front allows for keyboard to sit flush on top  
 m.2 ethernet is not going to work because it adds way too much height  
 with laptop and luggable a small aluminum piece needs to be cut out for the top  
 with laptop and luggable hinges will mount to aluminum top  
