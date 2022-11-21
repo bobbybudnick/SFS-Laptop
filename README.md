@@ -1,12 +1,12 @@
 # SFS-Laptop
 
-**Legacy Work with 15"/16" laptops**
-
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_101950.JPG)
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102306.JPG)
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102521.JPG)
 (Github does not handle EXIF orientation data correctly)
 TM1 running Devuan with Steam and TM2 running FreeBSD
+
+***Legacy Work with 15"/16" laptops***
 
 TM1 design goals
 -----
