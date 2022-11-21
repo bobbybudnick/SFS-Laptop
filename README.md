@@ -206,21 +206,22 @@ The original lead acid could not sustain system startup without boost from charg
 
 Build Notes
 -----
-common part is Bud Industries ac-407 case
-common part is mini ITX motherboard and CPU and RAM
-common part is Eyoyo 10" 1024x600 monitor 
-common part is Rii k12+ keyboard and touchpad
-decide whether a luggable or laptop will be built
-luggable has space for expansion including storage/networking/small graphics card
-laptop has space for 4s lipo battery and Pico PSU and storage is m.2 SSD
-cut back of case to allow room for IO connectors
-motherboard sticks out due to the ATX connector in front and so keyboard is flush
-could use 90 degree/right angle ATX connector for laptop to connect to Pico PSU
-for the luggable a Pico PSU with ac adapter could be used or a full PC power supply
-connector can also be cut from the Pico PSU and a large 12v power supply attached
-having a flattened ARX connector in front allows for keyboard to sit flush on top
-m.2 ethernet is not going to work because it adds way too much height
-with laptop and luggable a small aluminum piece needs to be cut out for the top
-with laptop and luggable hinges will mount to aluminum top
-router luggable variant needed structual neck for monitor to clear ethernet card
+common part is Bud Industries ac-407 case  
+common part is mini ITX motherboard and CPU and RAM  
+common part is Eyoyo 10" 1024x600 monitor  
+common part is Rii k12+ keyboard and touchpad  
+decide whether a luggable or laptop will be built  
+luggable has space for expansion including storage/networking/small graphics card  
+laptop has space for 4s lipo battery and Pico PSU and storage is m.2 SSD  
+cut back of case to allow room for IO connectors  
+motherboard sticks out due to the ATX connector in front and so keyboard is flush  
+could use 90 degree/right angle ATX connector for laptop to connect to Pico PSU  
+for the luggable a Pico PSU with ac adapter could be used or a full PC power supply  
+connector can also be cut from the Pico PSU and a large 12v power supply attached  
+having a flattened ARX connector in front allows for keyboard to sit flush on top  
+m.2 ethernet is not going to work because it adds way too much height  
+with laptop and luggable a small aluminum piece needs to be cut out for the top  
+with laptop and luggable hinges will mount to aluminum top  
+router luggable variant needed structual neck for monitor to clear ethernet card  
 router luggable variant just uses metallic wrap for the top instead of aluminum
+
