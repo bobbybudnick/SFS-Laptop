@@ -1,5 +1,7 @@
 # SFS-Laptop
 
+**Legacy Work with 15"/16" laptops**
+
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_101950.JPG)
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102306.JPG)
 ![](https://github.com/bobbybudnick/SFS-Laptop/blob/master/WIN_20171210_102521.JPG)
@@ -177,3 +179,48 @@ B-gears bblaster 80mmx25
 Vantec tornado 80mmx38  
 Delta TFB0812UHE Sidewinder 80mmx38
 
+**Newer work mostly focusing on smaller laptops**
+
+Overview
+-----
+The "storm clouds on the horizon" part above came to pass.  
+The exact larger 15"/16" screen used above is not available any more.  
+Hopefully most any 15" widescreen will be about the right size if needed.  
+The 10" screen makes the laptop more like a netbook.  
+With a lipo battery it could be fairly portable.  
+The gaming laptop was the prototype for this type of small laptop device.  
+Now the luggable router has been made also.  
+There is still a good reason for the 15"/16" model for workstation and media use.
+
+A Battery Aberration
+-----
+TM-1 is still running at 100%.  
+TM-3 - built for many years now from TM-2 whose motherboard died a long time ago.  
+Converted from Udoo x86 Ultra to Asrock B450 Fatality Ryzen 2400GE 32GB RAM.  
+Udoo x86 Ultra worked for several years and still works as core of a tablet now.  
+But the most interesting part is it uses a 4s lipo battery and balance charger.  
+All other custom laptop designs for now have used lead acid batteries.  
+Battery life appears to be at least 2 hours with lipo.  
+Same battery should fit in smaller design with an even higher battery life.  
+The original lead acid could not sustain system startup without boost from charger.
+
+Build Notes
+-----
+common part is Bud Industries ac-407 case
+common part is mini ITX motherboard and CPU and RAM
+common part is Eyoyo 10" 1024x600 monitor 
+common part is Rii k12+ keyboard and touchpad
+decide whether a luggable or laptop will be built
+luggable has space for expansion including storage/networking/small graphics card
+laptop has space for 4s lipo battery and Pico PSU and storage is m.2 SSD
+cut back of case to allow room for IO connectors
+motherboard sticks out due to the ATX connector in front and so keyboard is flush
+could use 90 degree/right angle ATX connector for laptop to connect to Pico PSU
+for the luggable a Pico PSU with ac adapter could be used or a full PC power supply
+connector can also be cut from the Pico PSU and a large 12v power supply attached
+having a flattened ARX connector in front allows for keyboard to sit flush on top
+m.2 ethernet is not going to work because it adds way too much height
+with laptop and luggable a small aluminum piece needs to be cut out for the top
+with laptop and luggable hinges will mount to aluminum top
+router luggable variant needed structual neck for monitor to clear ethernet card
+router luggable variant just uses metallic wrap for the top instead of aluminum
